@@ -1,0 +1,26 @@
+{
+  "name": "ipv4",
+  "version": "0.0.2",
+  "description": "ipv4",
+  "bin": {
+    "ipv4": "./bin/ipv4"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/ipv4.git"
+  },
+  "dependencies": {
+    "xutil":"0.0.2"
+  },
+  "keywords": [
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/xudafeng/ipv4",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
