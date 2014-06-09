@@ -1,6 +1,6 @@
 {
   "name": "ipv4",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ipv4",
   "bin": {
     "ipv4": "./bin/ipv4"
@@ -13,8 +13,7 @@
   "dependencies": {
     "xutil":"0.0.2"
   },
-  "keywords": [
-  ],
+  "keywords": ["ip","ipv4"],
   "devDependencies": {
     "mocha": "*"
   },
