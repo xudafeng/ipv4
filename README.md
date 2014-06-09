@@ -12,7 +12,7 @@ $ sudo npm install ipv4 -g
 ## Quick Start
 
 ```bash
-$ ipv4 xdf
+$ ipv4
 ```
 
 ## License
