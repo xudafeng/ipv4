@@ -13,6 +13,7 @@ $ sudo npm install ipv4 -g
 
 ```bash
 $ ipv4
+$ Your ip is: 192.168.1.101 which was in your clipboard.
 ```
 
 ## License
