@@ -17,6 +17,6 @@ var ipv4 = require('../');
 
 describe('It works', function(){
   it('at local', function() {
-    ipv4.should.not.equal('0.0.0.0')
+    ipv4.should.not.equal('0.0.0.0');
   });
 });
