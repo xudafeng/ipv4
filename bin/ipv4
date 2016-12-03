@@ -14,10 +14,10 @@
 
 'use strict';
 
-var exec = require('child_process').exec;
+var chalk = require('chalk');
+var copy = require('copy-paste').copy;
 var ipv4 = require('../');
 
-exec('echo ' + ipv4 + ' | pbcopy', function(err, stdout, stderr) {
-  if (err || stderr) return;
-  console.log('Your ip is: \x1B[36m' + ipv4 + '\x1B[39m which was in your clipboard.');
+copy(ipv4, function() {
+  console.log('Your ip is: '+ chalk.cyan(ipv4) +' which was in your clipboard.');
 });

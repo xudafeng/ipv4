@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git://github.com/xudafeng/ipv4.git"
   },
-  "keywords": ["ip","ipv4"],
+  "keywords": [
+    "ip",
+    "ipv4"
+  ],
   "devDependencies": {
     "mocha": "*"
   },
@@ -18,5 +21,9 @@
   "author": "xudafeng",
   "email": "xudafeng[at]126.com",
   "blog": "http://xdf.me",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "copy-paste": "^1.3.0"
+  }
 }
