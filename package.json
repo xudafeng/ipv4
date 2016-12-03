@@ -10,9 +10,16 @@
     "type": "git",
     "url": "git://github.com/xudafeng/ipv4.git"
   },
-  "keywords": ["ip","ipv4"],
+  "keywords": [
+    "ip",
+    "ipv4"
+  ],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "^3.2.0",
+    "should": "^11.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "homepage": "https://github.com/xudafeng/ipv4",
   "author": "xudafeng",
