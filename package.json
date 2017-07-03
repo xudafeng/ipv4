@@ -1,6 +1,6 @@
 {
   "name": "ipv4",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ipv4",
   "bin": {
     "ipv4": "./bin/ipv4"
@@ -18,9 +18,6 @@
     "mocha": "*"
   },
   "homepage": "https://github.com/xudafeng/ipv4",
-  "author": "xudafeng",
-  "email": "xudafeng[at]126.com",
-  "blog": "http://xdf.me",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
