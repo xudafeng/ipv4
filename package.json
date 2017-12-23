@@ -19,7 +19,7 @@
     "validator": "^9.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul cover `npm bin`/_mocha"
   },
   "license": "MIT",
   "dependencies": {
