@@ -15,12 +15,14 @@
     "ipv4"
   ],
   "devDependencies": {
+    "git-contributor": "^1.0.8",
     "istanbul": "^0.4.5",
     "mocha": "*",
     "validator": "^9.2.0"
   },
   "scripts": {
-    "test": "istanbul cover `npm bin`/_mocha"
+    "test": "istanbul cover `npm bin`/_mocha",
+    "contributor": "git-contributor"
   },
   "license": "MIT",
   "dependencies": {
