@@ -1,6 +1,6 @@
 {
   "name": "ipv4",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "ipv4",
   "bin": {
     "ipv4": "./bin/ipv4"
