@@ -7,7 +7,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![node version][node-image]][node-url]
 
-[npm-image]: http://img.shields.io/npm/v/ipv4.svg?style=flat-square
+[npm-image]: http://img.shields.io/npm/v/ipv4.svg
 [npm-url]: http://npmjs.org/package/ipv4
 [travis-image]: https://img.shields.io/travis/xudafeng/ipv4.svg
 [travis-url]: https://travis-ci.org/xudafeng/ipv4
