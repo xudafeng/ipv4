@@ -1,5 +1,7 @@
 # ipv4
 
+---
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
@@ -7,11 +9,11 @@
 
 [npm-image]: http://img.shields.io/npm/v/ipv4.svg?style=flat-square
 [npm-url]: http://npmjs.org/package/ipv4
-[travis-image]: https://img.shields.io/travis/xudafeng/ipv4.svg?style=flat-square
+[travis-image]: https://img.shields.io/travis/xudafeng/ipv4.svg
 [travis-url]: https://travis-ci.org/xudafeng/ipv4
-[coveralls-image]: https://img.shields.io/coveralls/xudafeng/ipv4.svg?style=flat-square
+[coveralls-image]: https://img.shields.io/coveralls/xudafeng/ipv4.svg
 [coveralls-url]: https://coveralls.io/r/xudafeng/ipv4?branch=master
-[node-image]: https://img.shields.io/badge/node.js-%3E=8-green.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=8-green.svg
 [node-url]: http://nodejs.org/download/
 
 ## Installment

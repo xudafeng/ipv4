@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "ipv4",
   "bin": {
-    "ipv4": "./bin/ipv4"
+    "ipv4": "./bin/ipv4.js"
   },
   "main": "index.js",
   "repository": {
@@ -15,13 +15,13 @@
     "ipv4"
   ],
   "devDependencies": {
-    "git-contributor": "^1.0.8",
-    "istanbul": "^0.4.5",
-    "mocha": "*",
+    "git-contributor": "1",
+    "mocha": "9",
+    "nyc": "^15.1.0",
     "validator": "^9.2.0"
   },
   "scripts": {
-    "test": "istanbul cover `npm bin`/_mocha",
+    "test": "nyc --reporter=lcov --reporter=text mocha",
     "contributor": "git-contributor"
   },
   "license": "MIT",

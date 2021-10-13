@@ -6,6 +6,6 @@ const validator = require('validator');
 
 describe('test', () => {
   it('should be ok', () => {
-    assert(validator.isIP(ipv4), true);
+    assert.equal(validator.isIP(ipv4), true);
   });
 });
